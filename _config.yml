@@ -1,4 +1,4 @@
 theme: jekyll-theme-hacker
-title: Notes
+title: notes
 extensions: [fenced_code_blocks]
 markdown: kramdown
