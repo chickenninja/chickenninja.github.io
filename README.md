@@ -11,7 +11,7 @@ Namaste. I am Sean, and I work for Apigee/Google as an API Architect.
 - You can add all files in a directory to a commit by using 
 - Something else 
 - Something else again
-- [GitHub](/sample.sh)
+- [Sample](/sample.sh)
 
 ```shell
 git add .
