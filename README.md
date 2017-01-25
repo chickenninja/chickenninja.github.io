@@ -12,6 +12,7 @@ Namaste. I am Sean, and I work for Apigee/Google as an API Architect.
 - Something else 
 - Something else again
 - [Sample](/sample.sh)
+- [Feature](/feature.md)
 
 ```shell
 git add .
