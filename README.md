@@ -7,7 +7,12 @@
 
 # Using this Page
 
- - This is where I keep my notes and cheatsheets. If you are viewing this on a browser, you can use the table of contents to browse. If you are viewing this markdown file in vim, run `setlocal foldmethod=expr foldexpr=getline(v:lnum)[0]!=\#\"` and use `zM` + `zR` to fold/unfold all sections.
+ - This is where I keep my notes and cheatsheets. If you are viewing this on a browser, you can use the table of contents to browse. If you are viewing this markdown file in vim, run 
+
+``` shell
+setlocal foldmethod=expr foldexpr=getline(v:lnum)[0]!=\#\"`
+```
+ and use ``zM`` + `zR` to fold/unfold all sections.
 
 # Git
 
