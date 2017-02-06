@@ -27,3 +27,5 @@ setlocal foldmethod=expr foldexpr=getline(v:lnum)[0]!=\#\"`
 git add .
 ```
 
+Sample image:
+![ChickenNinja](../chickenninja.JPG)
