@@ -1,8 +1,7 @@
-![ChickenNinja](/images/chickenninja.jpg)
-
 - [About Me](/pages/about.md)
 - [OS + Dev Env Setup](/pages/os.md)
 
+![ChickenNinja](/images/chickenninja.jpg)
 
 # Using this Page
 
