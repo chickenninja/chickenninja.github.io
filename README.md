@@ -1,7 +1,11 @@
-<img src="/images/chickenninja.jpg" width="200">
-
 * TOC
 {:toc}
+
+<img src="/images/chickenninja.jpg" width="75%" height="75%">
+
+# About Me
+
+Namaste. I am Sean, and I work for Apigee/Google as an API Architect.
 
 # Using this Page
 
@@ -11,10 +15,6 @@
 setlocal foldmethod=expr foldexpr=getline(v:lnum)[0]!=\#\"`
 ```
  and use ``zM`` + `zR` to fold/unfold all sections.
-
-# About Me
-
-Namaste. I am Sean, and I work for Apigee/Google as an API Architect.
 
 # OS + Development Environment
 
