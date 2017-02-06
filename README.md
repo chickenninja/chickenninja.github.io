@@ -1,4 +1,6 @@
-![ChickenNinja](/images/chickenninja.jpg =250x250)
+#![ChickenNinja](/images/chickenninja.jpg)
+
+<img src="/images/chickenninja.jpg" width="50">
 
 * TOC
 {:toc}
