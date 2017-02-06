@@ -28,4 +28,4 @@ git add .
 ```
 
 Sample image:
-![ChickenNinja](../chickenninja.JPG)
+![ChickenNinja](/images/chickenninja.JPG)
