@@ -1,7 +1,8 @@
-- [Home](http://chicken.ninja)
+[Home](http://chicken.ninja)
 * TOC
 {:toc}
 
+[Home](http://chicken.ninja)
 # About Me
 
 
