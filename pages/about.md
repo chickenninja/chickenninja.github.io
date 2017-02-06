@@ -1,4 +1,4 @@
-- [Home](/)
+- [Home](http://chicken.ninja)
 * TOC
 {:toc}
 
