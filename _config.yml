@@ -1,4 +1,4 @@
 theme: jekyll-theme-hacker
-title: notes
+title: chicken.ninja
 extensions: [fenced_code_blocks]
 markdown: kramdown
