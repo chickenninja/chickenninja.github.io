@@ -14,15 +14,15 @@ else
 	fi
 
 	parted --script /dev/$2 -- mklabel msdos \
-		       mkpart primary ext4 1 $MAINGiB \
-		       mkpart primary linux-swap $MAINGiB $(($MAIN+$SWP))GiB \
-		       mkpart primary ext4 $(($MAIN+$SWP)) -1 \
+		       mkpart primary ext4 1 $MAIN"GiB" \
+		       mkpart primary linux-swap $MAIN"GiB" $(($MAIN+$SWP))GiB \
+		       mkpart primary ext4 $(($MAIN+$SWP))"GiB" -1 \
 		       set 1 boot on && \
-		       mkfs.ext4 /dev/$21 && \
-		       mkfs.ext4 /dev/$23 && \
-		       mount /dev/sda1 /mnt && \
+		       mkfs.ext4 /dev/$2"1" && \
+		       mkfs.ext4 /dev/$2"3" && \
+		       mount /dev/$2"1" /mnt && \
 		       mkdir /mnt/home && \
-		       mount /dev/sda$23 /mnt/home && \
+		       mount /dev/sda$2"3" /mnt/home && \
 		       pacstrap /mnt base && \
 		       genfstab -U /mnt >> /mnt/etc/fstab
 
