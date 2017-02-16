@@ -22,7 +22,7 @@ else
 		       mkfs.ext4 /dev/$2"3" && \
 		       mount /dev/$2"1" /mnt && \
 		       mkdir /mnt/home && \
-		       mount /dev/sda$2"3" /mnt/home && \
+		       mount /dev/$2"3" /mnt/home && \
 		       pacstrap /mnt base && \
 		       genfstab -U /mnt >> /mnt/etc/fstab
 
