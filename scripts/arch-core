@@ -11,6 +11,8 @@ pacman -Sy \
   git \
   vim \
   firefox \
+  alsa-utils \
+  nethack \
   xorg-server \
   xorg-xinit \
   xorg-server-utils \
