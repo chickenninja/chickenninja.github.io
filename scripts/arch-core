@@ -13,6 +13,8 @@ pacman -Sy \
   firefox \
   alsa-utils \
   nethack \
+  xfce4-terminal \
+  xterm \
   xorg-server \
   xorg-xinit \
   xorg-server-utils \
