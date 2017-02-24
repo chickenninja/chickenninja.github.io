@@ -26,7 +26,12 @@ grub-install --target=i386-pc --recheck /dev/sda && \
 cp /usr/share/locale/en\@quot/LC_MESSAGES/grub.mo /boot/grub/locale/en.mo && \
 grub-mkconfig -o /boot/grub/grub.cfg && \
 systemctl enable sshd.service && \
-useradd -g wheel -m -s /bin/bash sean &&
-echo "setxkbmap gb && exec i3" > /home/sean/.xinitrc
+useradd -g wheel -m -s /bin/bash sean && \
+echo "setxkbmap gb && exec i3" > /home/sean/.xinitrc && \
+curl chicken.ninja/scripts/vimrc > /home/sean/.vimrc && \
+mkdir -p /home/sean/.config/i3 && \
+curl chicken.ninja/scripts/i3config > /home/sean/.config/i3/config && \
+mkdir -p /home/sean/.config/xfce4/terminal && \
+curl chicken.ninja/scripts/i3config > /home/sean/.config/xfce4/terminal/terminalrc && \
 
 echo "remember to set a password, visudo and install vimfx firefox plugin"
