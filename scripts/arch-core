@@ -32,7 +32,7 @@ curl chicken.ninja/scripts/vimrc > /home/sean/.vimrc && \
 mkdir -p /home/sean/.config/i3 && \
 curl chicken.ninja/scripts/i3config > /home/sean/.config/i3/config && \
 mkdir -p /home/sean/.config/xfce4/terminal && \
-curl chicken.ninja/scripts/i3config > /home/sean/.config/xfce4/terminal/terminalrc && \
+curl chicken.ninja/scripts/terminalrc > /home/sean/.config/xfce4/terminal/terminalrc && \
 git config --global user.email "sean@example.com" && \
 git config --global user.name "Sean" && \
 git clone https://github.com/chickenninja/chickenninja.github.io.git /home/sean && \
