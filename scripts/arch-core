@@ -28,3 +28,5 @@ grub-mkconfig -o /boot/grub/grub.cfg && \
 systemctl enable sshd.service && \
 useradd -g wheel -m -s /bin/bash sean &&
 echo "setxkbmap gb && exec i3" > /home/sean/.xinitrc
+
+echo "remember to set a password and visudo"
