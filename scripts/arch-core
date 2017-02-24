@@ -33,10 +33,8 @@ mkdir -p /home/sean/.config/i3 && \
 curl chicken.ninja/scripts/i3config > /home/sean/.config/i3/config && \
 mkdir -p /home/sean/.config/xfce4/terminal && \
 curl chicken.ninja/scripts/i3config > /home/sean/.config/xfce4/terminal/terminalrc && \
-git config --global user.email "sean@example.com"
-git config --global user.name "Sean"
+git config --global user.email "sean@example.com" && \
+git config --global user.name "Sean" && \
 
-wget https://addons.mozilla.org/firefox/downloads/latest/vimfx/addon-404785-latest.xpi /tmp/addon-404785-latest.xpi
-firefox /tmp/addon-404785-latest.xpi
 
 echo "remember to set a password, visudo and install vimfx firefox plugin"
