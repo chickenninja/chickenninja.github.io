@@ -6,6 +6,7 @@ pacman -Sy \
   openssh  \
   grub-bios \
   linux-headers \
+  networkmanager \
   i3 \
   dmenu \
   git \
