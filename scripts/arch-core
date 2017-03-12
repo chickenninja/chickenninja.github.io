@@ -36,5 +36,6 @@ mkdir -p /home/sean/.config/xfce4/terminal && \
 curl chicken.ninja/scripts/terminalrc > /home/sean/.config/xfce4/terminal/terminalrc && \
 git clone https://github.com/chickenninja/chickenninja.github.io.git /home/sean/chickenninja && \
 git clone https://aur.archlinux.org/lastpass-cli.git /tmp/lastpass-cli && \
+passwd sean && \
 su sean && cd /tmp/lastpass-cli && makepkg -si &&\
 echo "remember to set a password, visudo and install vimfx firefox plugin"
