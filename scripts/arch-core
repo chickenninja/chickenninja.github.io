@@ -37,5 +37,6 @@ curl chicken.ninja/scripts/terminalrc > /home/sean/.config/xfce4/terminal/termin
 git config --global user.email "sean@example.com" && \
 git config --global user.name "Sean" && \
 git clone https://github.com/chickenninja/chickenninja.github.io.git /home/sean && \
-
+git clone https://aur.archlinux.org/lastpass-cli.git /tmp && \
+cd /tmp/lastpass-cli && makepkg -si &&\
 echo "remember to set a password, visudo and install vimfx firefox plugin"
