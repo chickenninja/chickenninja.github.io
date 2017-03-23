@@ -1,3 +1,0 @@
-#script to be run as the user
-git clone https://aur.archlinux.org/lastpass-cli.git /home/sean/lastpass-cli && \
-cd /home/sean/lastpass-cli && makepkg -si
