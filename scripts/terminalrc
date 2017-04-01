@@ -24,4 +24,4 @@ MiscDefaultWorkingDir=
 MiscRewrapOnResize=TRUE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
-
+FontAllowBold=FALSE
