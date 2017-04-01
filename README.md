@@ -22,6 +22,14 @@ cp /etc/netctl/examples/wireless-wpa /etc/netctl/mywifi
 vim /etc/netctl/mywifi 	#set interface, wifi name and key
 netctl start mywifi
 ```
+(if you need wifi, you can find the ESSID using the steps below ...)
+
+```shell
+ip link set (interface) up
+iwlist (interface) scan
+ip link set (interface) down
+```
+
 
 - format disk and set up partitions
 
