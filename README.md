@@ -66,3 +66,10 @@ cd arch-environment
 ```
 
 We are now good to go!
+
+
+# Fantasy Formula 1
+
+This is a project I work on in my spare time to demonstrate some Software Architecture / Development principles. Please find the Project Wiki [here](https://github.com/chickenninja/ff1-docs/wiki/Project-Home).
+
+
