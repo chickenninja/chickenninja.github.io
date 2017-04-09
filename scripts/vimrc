@@ -14,3 +14,7 @@ let g:netrw_alto=1
 set splitbelow
 set splitright
 
+"set Formatters
+au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
+au FileType javascript setlocal equalprg=js-beautify
+
