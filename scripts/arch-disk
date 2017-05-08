@@ -6,5 +6,6 @@ parted --script /dev/sda -- mklabel msdos \
 		       set 1 boot on && \
 		       mkfs.ext4 /dev/sda1 && \
 		       mount /dev/sda1 /mnt && \
+		       ntpdate 0.gb.pool.ntp.org && \
 		       pacstrap /mnt base && \
 		       genfstab -U /mnt >> /mnt/etc/fstab
