@@ -7,5 +7,6 @@ parted --script /dev/sda -- mklabel msdos \
 		       mkfs.ext4 /dev/sda1 && \
 		       mount /dev/sda1 /mnt && \
 		       ntpdate 0.gb.pool.ntp.org && \
+		       pacman-key --init && pacman-key --refresh-keys && \
 		       pacstrap /mnt base && \
 		       genfstab -U /mnt >> /mnt/etc/fstab
