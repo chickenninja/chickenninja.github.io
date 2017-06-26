@@ -3,6 +3,8 @@
 
 <img src="/images/chickenninja.jpg" width="75%" height="75%">
 
+This page contains some dotfiles and cheatsheets that I regularly use.
+
 # About Me
 
 Namaste. I am Sean, and I work for Apigee/Google as an API Architect.
@@ -67,9 +69,24 @@ cd arch-environment
 
 We are now good to go!
 
+# Sprint 0 Tasks
 
-# Fantasy Formula 1
+Before a team can start working on a project, a number of tools must be set up.
 
-This is a project I work on in my spare time to demonstrate some Software Architecture / Development principles. Please find the Project Wiki [here](https://github.com/chickenninja/ff1-docs/wiki/Project-Home).
+## Secrets server
+
+Many of the tools we set up will require secrets, passwords, certs or ssh keys. These shouldn't be hardcoded, committed to source control or left on post-it notes on monitors. Instead, a user can temporarily spin up a server for the duration of a build that requires the secrets.
+
+I have written a quick tool to do this [here](https://github.com/chickenninja/secrets-server)
+
+## Provisioning a project server
+
+Whilst an international enterprise with a thousand developers will require many servers to improve availability and speed, a one man team will only require a single server. After adding my Digital Ocean Access Token to my secrets server, I can run the following command to provision a server.
+
+``` shell
+sudo docker run -e DIGITALOCEAN_ACCESS_TOKEN=$(sd-secret do-token) doctl compute droplet create project-server --size 1gb --image debian-8-x64 --region ams2 --ssh-keys {ssh key fingerprint}
+```
+
+Using the Digital Ocean CLI has its pros and cons. Whilst using a CLI is much better for integration and automation than logging onto the web portal, I would need to use a different CLI for each provider. In order to be cloud-agnostic I can use a tool like Vagrant with multiple providers.
 
 
