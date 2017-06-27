@@ -7,7 +7,10 @@ This page contains some dotfiles and cheatsheets that I regularly use.
 
 # About Me
 
-Namaste. I am Sean, and I work for Apigee/Google as an API Architect.
+Namaste. I am Sean; API Architect at Apigee/Google; Time Magazine Person of the Year 2006.
+
+# What do I do?
+I prevent cross-site scripting, I monitor for DDoS attacks, emergency database rollbacks, and faulty transaction handlings. The Internet... heard of it? Transfers half a petabyte of data every minute. Do you have any idea how that happens? All those YouPorn ones and zeroes streaming directly to your shitty, little smart phone day after day? Every dipshit who shits his pants if he can't get the new dubstep Skrillex remix in under 12 seconds? It's not magic, it's talent and sweat. People like me, ensuring your packets get delivered, un-sniffed. So what do I do? I make sure that one bad config on one key component doesn't bankrupt the entire f?@!ng company. That's [what I do](https://youtu.be/dkrzZ8-gfn0). 
 
 # Development Environment
 
